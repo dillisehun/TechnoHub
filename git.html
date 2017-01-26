@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Git and Github</title>
+
+	<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+		</head>
+  <body>
+				
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="technohub.html">TechnoHub</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#"><strong>Home</strong></a></li>
+      <li>			<a href="http://technoblitzkec.com" target="_blank"><strong>TechnoBlitz </strong></a>
+				
+	
+	</li>
+    </ul>
+  </div>
+</nav>
+<div class="container">
+<div class="row">
+				<h1>Git & GitHub Workshop Code <h2><small>By Techno_Blitz Society</small></h2></h1>
+<div class="panel panel-info">
+<div class="panel-heading"><h2>Downloads</h2></div>
+<div class="panel-body">	
+				<a href="		https://git-scm.com/download/win" class="btn btn-lg btn-success" role="button" target="_blank">Download Git</a>
+				<a href="ppts/day1.pptx" class="btn btn-lg btn-primary" role="button" target="_blank">Day 1 PPT</a>
+				<a href="ppts/day2.pptx" class="btn btn-lg btn-primary" role="button" target="_blank">Day 2 PPT</a>
+</div>
+</div>
+</div></div>
+
+<div class="container">
+			<ul class="nav nav-pills">
+				<li class="active"><a data-toggle="pill" href="#typetext">Text Lessons</a></li>
+				
+				<li><a data-toggle="pill" href="#typeimage">Image Lessons</a></li>
+				 </ul>
+  <br/><hr>
+<div class="tab-content">
+<div id="typetext" class="tab-pane fade in active">
+<div class="row">
+<div class=" col-sm-6">
+<div class="panel panel-info">
+<div class="panel-heading"><h2>Day 1: Git Basics</h2></div>
+<div class="panel-body">			
+				<h3>Check version of git installed</h3>
+				<pre>git --version</pre>
+				<hr>
+				<h3>Set your name and email</h3>
+				<pre>git config --global user.name "Your name"</pre>
+				<pre>git config --global user.email "Your email address"</pre>
+				<hr>
+				<h3>Check set name and email by:</h3>
+				<pre>git config --list</pre><hr>
+				<h3>Initializing a repository</h3>
+				<pre>git init</pre><hr>
+				<h3>Adding File to staging area</h3>
+				<pre>git add filename.extension</pre>
+				Example
+				<pre>git add names.txt</pre>
+				To add all files and folders
+				<pre>git add .</pre><hr>
+				<h3>To check status</h3>
+				<pre>git status</pre><hr>
+				<h3>To commit files present in staging area</h3>
+				<pre>git commit -m "commit message"</pre><hr>
+				<h3>To check log</h3>
+				<pre>git log</pre><hr>
+				<h3>To check difference between working copy and last commited version of files</h3>
+				<pre>git diff</pre><hr>
+				<h3>If you added a file to staging area, check its diff by</h3>
+				<pre>git diff --staged</pre><hr>
+				<h3>Remove a file from staging area</h3>
+				<pre>git reset HEAD filename.extension</pre><hr>
+				<h3>Replace the current copy of file from its last commited state</h3>
+				<pre>git checkout -- filename.extension</pre><hr>
+				<h3>Replace the current copy of a file from its state in a particular commit</h3>
+				<pre>git checkout <i>few_initials_of_commit_hash</i> -- filename.extension</pre><hr>
+</div>
+</div>
+</div>				
+
+<div class=" col-sm-6">
+<div class="panel panel-warning">
+<div class="panel-heading">
+				<h2>Day 2: Github </h2></div>
+<div class="panel-body">
+				<h3>Clone a repository</h3>
+					<pre>git clone https://github.com/username/repo_name.git</pre><hr>
+
+				<h3>Connect your local repository to an online repository from your account</h3>
+					<pre>git remote add nickname master</pre>
+					<p>Example</p>
+					<pre>git remote add origin https://github.com/username/repo.git</pre><hr>
+				<h3>Uploading commits to online repository from git</h3>
+					<pre>git push -u origin master</pre><hr>
+				<h3>Fetching changes from online repository</h3>
+					<pre>git pull</pre><hr>
+				<h3>Making a github pages site</h3>
+					<pre>Make a repository with name as "your_username.github.io"</pre>
+					<hr>
+</div>
+</div>
+</div>
+</div> 
+</div>
+<div id="typeimage" class="tab-pane fade in">
+<div class="row">
+<div class=" col-sm-6">
+<div class="panel panel-info">
+<div class="panel-heading"><h2>Day 1: Git Basics</h2></div>
+<div class="panel-body">			
+				<h3>Check version of git installed</h3>
+				<pre> <img src="ssgit/IMG-20170126-WA0002.jpg" class= "img-rounded" width="400" height="236"></pre>
+				<hr>
+				<h3>Set your name and email</h3>
+				<pre> <img src="ssgit/IMG-20170126-WA0003.jpg" class= "img-rounded" width="400" height="236"></pre>
+				<pre> <img src="ssgit/IMG-20170126-WA0004.jpg" class= "img-rounded" width="400" height="236"></pre>
+				<hr>
+				<h3>Check set name and email by:</h3>
+				<pre> <img src="ssgit/IMG-20170126-WA0005.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>Initializing a repository</h3>
+				<pre> <img src="ssgit/IMG-20170126-WA0006.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>Adding File to staging area</h3>
+				<pre> <img src="ssgit/IMG-20170126-WA0007.jpg" class= "img-rounded" width="400" height="236"></pre>
+				<pre><img src="ssgit/IMG-20170126-WA0008.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>To check status</h3>
+				<pre><img src="ssgit/IMG-20170126-WA0009.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>To commit files present in staging area</h3>
+				<pre><img src="ssgit/IMG-20170126-WA0010.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>To check log</h3>
+				<pre><img src="ssgit/IMG-20170126-WA0011.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>To check difference between working copy and last commited version of files</h3>
+				<pre><img src="ssgit/IMG-20170126-WA0012.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>If you added a file to staging area, check its diff by</h3>
+				<pre><img src="ssgit/IMG-20170126-WA0013.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>Remove a file from staging area</h3>
+				<pre><img src="ssgit/IMG-20170126-WA0014.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>Replace the current copy of file from its last commited state</h3>
+				<pre><img src="ssgit/IMG-20170126-WA0015.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>Replace the current copy of a file from its state in a particular commit</h3>
+				<pre><img src="ssgit/IMG-20170126-WA0016.jpg" class= "img-rounded" width="400" height="236"></pre> <i>few_initials_of_commit_hash</i> -- filename.extension</pre><hr>
+</div>
+</div>
+</div>				
+
+<div class=" col-sm-6">
+<div class="panel panel-warning">
+<div class="panel-heading">
+				<h2>Day 2: Github </h2></div>
+<div class="panel-body">
+				<h3>Clone a repository</h3>
+					<pre><img src="ssgit/IMG-20170126-WA0017.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+
+				<h3>Connect your local repository to an online repository from your account</h3>
+					<pre><img src="ssgit/IMG-20170126-WA0018.jpg" class= "img-rounded" width="400" height="236"></pre>
+					<p>Example</p>
+					<pre><img src="ssgit/IMG-20170126-WA0019.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>Uploading commits to online repository from git</h3>
+					<pre><img src="ssgit/IMG-20170126-WA0020.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>Fetching changes from online repository</h3>
+					<pre><img src="ssgit/IMG-20170126-WA0021.jpg" class= "img-rounded" width="400" height="236"></pre><hr>
+				<h3>Making a github pages site</h3>
+					<pre>Make a repository with name as "your_username.github.io"</pre>
+					<hr>
+</div>
+</div>
+</div>
+</div> 
+</div>
+</div>
+</div>
+
+
+		
+		<footer>
+			<center>
+				<h4>Contact 
+					<a href="https://www.facebook.com/ItsAnujHere">
+					<strong>Anuj Sharma</strong>
+					</a>(Member of Technoblitz Society) for any further help or Solutions regarding this workshop
+					</h4>
+			</center>
+		</footer>
+		
+		</body>
+</html>
